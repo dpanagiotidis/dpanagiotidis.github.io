@@ -9,16 +9,63 @@ p.cvp {
 	font-size:24px;
 	text-align:center;
 	left:13%;
-	
-	
+	color:#E6EFE6;
+	text-shadow: 3px 2px black;
+
+
 }
-h2.core {
+h2{
 	font-family: 'Amaranth', sans-serif;
 	text-align: center-left;
-	
-	
+	color:#E6EFE6;
+	text-shadow: 3px 2px black;
+
+
+}
+div.flexbox {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+
 }
 
+div.flexitem {
+    color: white;
+    background-color: #2B2B3B;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    font-size: 18px;
+}
+div.other{
+  font-family: 'Amaranth', cursive;
+  font-size:24px;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
+  text-align: right;
+  align-self: center;;
+
+
+}
+div.core{
+  font-family: 'Amaranth', cursive;
+  font-size:24px;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
+  text-align: left;
+
+}
+div.experienced{
+  font-family: 'Amaranth', cursive;
+  font-size:24px;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
+  text-align: center;
+}
 p.standard {
 	font-family: 'Audiowide', cursive;
 	font-size:55px;
@@ -29,16 +76,24 @@ p.standard {
 	width: 100%;
 	margin: 0 auto;
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  color: black;
 }
 h1.cv {
 	font-family: 'Amaranth', cursive;
 	font-size:50px;
 	text-align:center;
-	
+	color:#E6EFE6;
+	text-shadow: 3px 2px black;
+
+
 }
 p {
 	font-family: 'Amaranth', sans-serif;
-	color:black;
+  color:#E6EFE6;
+  font-size: 17px;
+  text-shadow: 1px 1px 1px black;
+
+
 }
 
 p.bottom {
@@ -48,15 +103,35 @@ p.bottom {
 	text-align:center;
 }
 
-img.mylogo {
+#mylogo {
+	display: block;
+	left:0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+#btree{
+  display: block;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+#welcome{
+  font-family: 'Amaranth', cursive;
+  font-size:50px;
+  text-align:center;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
+}
+img.validator {
     display: block;
     margin: auto;
-	border: 1px solid #ddd;
+	  border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
 
 }
-
 nav{
 	background-color: #333;
 	float: left;
@@ -81,4 +156,49 @@ a.nav:hover {
 	color: #3377ff;
 	text-decoration: none;
 
+}
+#bio {
+  font-family: 'Amaranth', cursive;
+  text-align: left;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
+}
+#contact_form{
+  font-family: 'Amaranth', cursive;
+  text-align: center;
+  color:#2B2B3B;
+}
+#message{
+  background-color:#2B2B3B;
+  color: inherit;
+  color: white;
+}
+#email{
+  background-color:#2B2B3B;
+  color: inherit;
+  color: white;
+}
+#name{
+  background-color:#2B2B3B;
+  color: inherit;
+  color: white;
+}
+#surname{
+  background-color:#2B2B3B;
+  color: inherit;
+  color: white;
+}
+#biolion{
+    position: absolute;
+    right: 14px;
+    top: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+a.top{
+  font-family: 'Amaranth', cursive;
+  font-size:20px;
+  color:#E6EFE6;
+  text-shadow: 3px 2px black;
 }
