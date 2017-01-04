@@ -1,46 +1,63 @@
+<!DOCTYPE html>
+<!--Beginning of Html-->
 <html>
+<!--This is where the header starts-->
 <header>
 	<head>
-		<title>Home page</title>
-		<link rel="stylesheet" type="text/css" href="css/mycss.css">	
+		<title>Contact form</title>
+		<link rel="stylesheet" type="text/css" href="css/mycss.css">
 	</head>
-		<body>	
-			<img class="mylogo" src="images/jackal.png" />
+<!--Start of body where I am using the main stuff such as the nav bar which is shown on all pages-->
+		<body>
+			<!--This is the logo image I am using for all pages-->
+			<img class="mylogo" src="images/jackal.png" alt="logo" />
+			<!--Name of the site-->
 			<p class="standard">Dimitris Panagiotidis</p>
 			<br />
+		<!--Navigation bar starts here that is used to explore the site and redirects you to the other pages-->
 		<nav>
 				<a class="nav" href="index.html">Home</a>
 				<a class="nav" href="bio.html">Bio</a>
 				<a class="nav" href="cv.html">CV</a>
 				<a class="nav" href="contact.html">Contact</a>
-				
+
 		</nav>
+		<!--Navigation bar ends here-->
 		<hr>
 </header>
-		
+<!--this is where tthe header ends-->
+<!--Here starts the contact form that is required for this page.You can fill the blank spaces and press Ok-->
+<!--It has the id "contact_form" so I can make changes to mycss file, so that the contact form will have have the same css tags because I want it to work as a unit-->
 		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 			<div class="row">
+				<!--I am using the label tag to address the use of each space-->
 				<label for="name">Your name:</label><br />
 				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
 			</div>
 			<div class="row">
-				<label for="email">Your email:</label><br />
-				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				<label for="surname">Your surname:</label><br />
+				<input id="surname" class="input" name="surname" type="text" value="" size="30" /><br />
 			</div>
 			<div class="row">
-				<label for="message">Your message:</label><br />
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				<label for="email">Your email:</label><br />
+				<textarea id="email" class="input" name="email" rows="7" cols="30"></textarea><br />
 			</div>
+				<label for="message">Your message:</label><br />
+				<input id="message" class="input" name="message" type="text" value="" size="30" /><br />
 			<input type="submit" value="Ok" />
-		</form>						
-		
+			<div class="row">
+				
+		</form>
+<!--This is where the footer begins-->
 		<footer>
-		<br /> <br /> <br /> <br /> <br /> 
-		<hr>
-		<p class="bottom">Copyright 2016 - University of Northampton</p>
+		<br /> <br /> <br /> <br /> <br />
+		<hr><!--This line represents that the footer and the body are seperated-->
+		<p class="bottom">Copyright 2016 - University of Northampton</p><!--It is inside the footer.It is just a text-->
+		<!--This is the required validator-->
 		<a href="http://validator.w3.org/check?uri=referer"><img class="mylogo" src="images/wc3.png" alt="html5 validated" /></a><a href="http://jigsaw.w3.org/css-validator/check/referer"><img class="mylogo" src="images/wc3css.png" alt="Valid CSS!" /></a>
 		</footer>
+<!--This is where the footer ends-->
 </body>
+<!--End of body-->
 </html>
-
-
+<!--End of Html-->
