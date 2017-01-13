@@ -1,4 +1,4 @@
-/*This url is used to get the fonts which are going to be used in the html*/
+ /*This url is used to get the fonts which are going to be used in the html*/
 @import url('https://fonts.googleapis.com/css?family=Amaranth|Audiowide|Ultra');
 /*Starting with body which is used for all my pages I have the background image*/
 body {
@@ -12,14 +12,15 @@ p.cvp {
 	text-align:center;/*This style defines the place the <p> is going to be placed*/
 	left:13%;/*Using left and a percentage will make the <p> placed on the place I prefer.Percentage is a good choice because it will not change if used on different devices and browsers*/
 	color:#E6EFE6;/*This is the color im using for this font*/
-	text-shadow: 3px; 2px; black;/*This style gives the font a shadow so it can be seen better and does not tiring the eye*/
+	text-shadow: black; 3px;/*This style gives the font a shadow so it can be seen better and does not tiring the eye*/
 }
 /*This style is used for every h2 in the html*/
+
 h2{
 	font-family: 'Amaranth', sans-serif;
-	text-align: center-left;
+	text-align: left;
 	color:#E6EFE6;
-	text-shadow: 3px; 2px black;
+	text-shadow: 3px; 2px; black;
 }
 /*This is the flexbox, it is located to the bottom left of every page containing some informations*/
 div.flexbox {
